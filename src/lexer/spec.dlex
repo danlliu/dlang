@@ -1,0 +1,27 @@
+Ident [A-Za-z][A-Za-z0-9_]*
+Num [0-9]*
+BoolLit true|false
+# Syntax tokens
+LPAREN \(
+RPAREN \)
+LBRACKET \[
+RBRACKET \]
+LBRACE {
+RBRACE }
+PLUS +
+PLUSEQ +=
+MINUS \-
+MINUSEQ \-=
+TIMES \*
+TIMESEQ \*=
+DIVIDE /
+DIVIDEEQ /=
+EOL ;
+# Keywords
+IF if
+ELSE else
+WHILE while
+FOR for
+IN in
+FUNCTION fn
+Whitespace [ \n]*
